@@ -1,0 +1,18 @@
+{
+    "name": "UnityGeneralEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:33948cd24ba1d194cb2b31e8b13fe689"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
