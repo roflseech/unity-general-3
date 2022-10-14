@@ -1,0 +1,11 @@
+{
+  "name": "com.pimpochkagames.unitygeneral",
+  "displayName": "UnityGeneral",
+  "author": {
+    "name": "Pimpochka Games"
+  },
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "Common useful scripts",
+  "dependencies": {}
+}
