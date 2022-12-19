@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.dikiyhimik.unirx": {
+      "version": "https://gitlab.com/plugins19/unirx.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0bd7488d810c83e2a72dd3b4f1c91d8e7011d897"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.6",
       "depth": 1,
