@@ -19,7 +19,7 @@ namespace UnityGeneral
 
         public int Min => _min;
         public int Max => _max;
-        public int Randomized => Random.Range(_min, _max);
-        public int RandomizedRandomSign => Random.Range(_min, _max) * RandomHelp.Sign;
+        public int Randomized => Random.Range(_min, _max + 1);
+        public int RandomizedRandomSign => Random.Range(_min, _max + 1) * RandomHelp.Sign;
     }
 }
