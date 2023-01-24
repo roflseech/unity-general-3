@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace UnityGeneral
 {
-    [CustomPropertyDrawer(typeof(IntRange))]
+    [CustomPropertyDrawer(typeof(IntRange)), CanEditMultipleObjects]
     public class IntRangeInspector : PropertyDrawer
     {
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
@@ -27,12 +27,14 @@ namespace UnityGeneral
 
             EditorGUI.LabelField(position, "Min");
             position.x += position.width;
-            min.intValue = EditorGUI.IntField(position, min.intValue);
+            EditorGUI.PropertyField(position, min, GUIContent.none);
+            //min.intValue = EditorGUI.IntField(position, min.intValue);
             position.x += position.width + space;
 
             EditorGUI.LabelField(position, "Max");
             position.x += position.width;
-            max.intValue = EditorGUI.IntField(position, max.intValue);
+            EditorGUI.PropertyField(position, max, GUIContent.none);
+            //max.intValue = EditorGUI.IntField(position, max.intValue);
 
             if (min.intValue > max.intValue) max.intValue = min.intValue;
         }
